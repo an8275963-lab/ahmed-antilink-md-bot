@@ -1,0 +1,17 @@
+{
+  "name": "ahmed-antilink-md-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp group anti-link moderation bot using Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
